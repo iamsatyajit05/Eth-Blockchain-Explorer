@@ -25,7 +25,7 @@ function TxnInfo(alchemy) {
 				<p className="text-white"><b>Txn Hash</b> {txnInfo.transactionHash.slice(0, 6)}...{txnInfo.transactionHash.slice(-4)}</p>
 				<p className="text-white"><b>Block</b> {txnInfo.blockNumber}</p>
 				<p className="text-white"><b>From</b> <Link to={`/address/${txnInfo.from}`} className='underline'>{txnInfo.from.slice(0, 6)}...{txnInfo.from.slice(-4)}</Link></p>
-				<p className="text-white"><b>To</b> <Link tp={`/address/${txnInfo.to}`} className='underline'>{txnInfo.to.slice(0, 6)}...{txnInfo.to.slice(-4)}</Link></p>
+				<p className="text-white"><b>To</b> <Link to={`/address/${txnInfo.to}`} className='underline'>{txnInfo.to.slice(0, 6)}...{txnInfo.to.slice(-4)}</Link></p>
 			</div>
 		</div>
 	);

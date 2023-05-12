@@ -43,7 +43,7 @@ function App() {
 				</Switch>
 
 				<footer className='text-center p-4'>
-					<p className='text-white mb-1'>Made with 💛 by <a className='text-white underline' href="https:/twitter.com/0xSatyajit" target='_blank'>Satyajit</a></p>
+					<p className='text-white mb-1'>Made with 💛 by <a className='text-white underline' href="https://twitter.com/0xSatyajit" target='_blank'>Satyajit</a></p>
 					<p><a className='text-white underline' href="https://university.alchemy.com/">Alchemy University - Ethereum Dev. Bootcamp</a></p>
 				</footer>
 			</div>
